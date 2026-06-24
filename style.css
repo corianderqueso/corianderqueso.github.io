@@ -1,0 +1,13 @@
+.island {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: white;
+  margin: 10%;
+}
+
+body {
+  background-color: powderblue;
+}
