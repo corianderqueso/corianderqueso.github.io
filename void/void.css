@@ -1,0 +1,16 @@
+@keyframes banner {
+  from {
+    transform: rotate(0deg) scale(100);
+  }
+
+  to {
+    transform: rotate(999deg) scale(0);
+
+  }
+}
+
+.bannerAnim {
+  animation-name: banner;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
