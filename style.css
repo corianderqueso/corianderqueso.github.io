@@ -6,6 +6,10 @@
 
   background-color: white;
   margin: 10%;
+
+  border: 64px solid transparent;
+  border-image: url("assets/deco/border.png") 16 round;
+  border-image-width: 64px;
 }
 
 .overlay {
@@ -17,5 +21,8 @@
 }
 
 body {
-  background-color: powderblue;
+  background-color: lightseagreen;
+  background-image: url("assets/bg/pattern2.png");
+  background-size: 128px 128px;
+  image-rendering: pixelated;
 }
