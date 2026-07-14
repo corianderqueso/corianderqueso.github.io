@@ -1,15 +1,18 @@
 .island {
+  background-color: mediumslateblue;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 
-  background-color: white;
-  margin: 10%;
+  margin: 5%;
 
   border: 64px solid transparent;
   border-image: url("assets/deco/border.png") 16 round;
   border-image-width: 64px;
+}
+
+.island div {
+  margin: 10px;
+  background-color: white;
+  padding: 5px;
 }
 
 .overlay {
