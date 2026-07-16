@@ -17,8 +17,13 @@ display: block;
   <p>Directory</p>
   <nav>
   <a href="/index.html">Home</a>
+    <br>
   <a href="/blog/landing.html">Random Shit On My Mind</a>
+    <br>
+  <a href="/rules/rules.html">Rules of the Road</a>
+    <br>
   <a href="/void/void.html">Scream Into the Void</a>
+    <br>
   </nav>
   <hr>
   <p>About Me</p>
