@@ -24,6 +24,8 @@ display: block;
     <br>
   <a href="/void/void.html">Scream Into the Void</a>
     <br>
+  <a href="/screensaver/directory.html">Screensavers</a>
+    <br>
   </nav>
   <hr>
   <p>About Me</p>
