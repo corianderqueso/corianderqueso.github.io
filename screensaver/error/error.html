@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Error Screensaver</title>
+</head>
+
+<body>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      background-color: white;
+      overflow: hidden;
+    }
+  </style>
+
+  <canvas id="mainCanvas">Failed to load canvas</canvas>
+
+  <script src="error.js"></script>
+  <script>
+    const c = document.getElementById("mainCanvas");
+
+    function resizeCanvas() {
+      c.width = window.innerWidth;
+      c.height = window.innerHeight;
+    }
+
+    window.addEventListener("load", resizeCanvas);
+    window.addEventListener("resize", resizeCanvas);
+
+    window.addEventListener("click", () => {
+      document.documentElement.requestFullscreen();
+    })
+
+    let idleTimer;
+
+    document.addEventListener('mousemove', () => {
+      document.body.style.cursor = 'default';
+
+      clearTimeout(idleTimer);
+
+      idleTimer = setTimeout(() => {
+        document.body.style.cursor = 'none';
+      }, 2000);
+    });
+  </script>
+
+</body>
+
+</html>
